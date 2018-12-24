@@ -26,11 +26,8 @@ trait QueriesRelationships
         // connection name in from to be used by grammar when query compiled
         if ($this->getConnection() instanceof CanCrossDatabaseShazaamInterface) {
             $subqueryConnection = $hasQuery->getConnection()->getDatabaseName();
-            $queryConnection = $this->getConnection()->getDatabaseName();
-            if ($queryConnection != $subqueryConnection) {
-                $queryFrom = $hasQuery->getConnection()->getTablePrefix().'<-->'.$hasQuery->getQuery()->from.'<-->'.$subqueryConnection;
-                $hasQuery->from($queryFrom);
-            }
+            $queryFrom = $hasQuery->getConnection()->getTablePrefix().'<-->'.$hasQuery->getQuery()->from.'<-->'.$subqueryConnection;
+            $hasQuery->from($queryFrom);
         }
 
         return parent::addHasWhere($hasQuery, $relation, $operator, $count, $boolean);
