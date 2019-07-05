@@ -1,6 +1,7 @@
 {
-    "name": "hoyvoy/laravel-cross-database-subqueries",
+    "name": "nainlobato/laravel-cross-db-sq",
     "description": "Eloquent cross database compatibility in subqueries",
+    "keywords": ["laravel", "cross databases", "subqueries"],
     "type": "library",
     "require": {
         "php": ">=7.1.3",
@@ -16,18 +17,18 @@
     },
     "autoload": {
         "psr-4": {
-            "Hoyvoy\\CrossDatabase\\": "src/"
+            "NainLobato\\CrossDatabase\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Hoyvoy\\Tests\\" : "tests"
+            "NainLobato\\Tests\\" : "tests"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Hoyvoy\\CrossDatabase\\CrossDatabaseServiceProvider"
+                "NainLobato\\CrossDatabase\\CrossDatabaseServiceProvider"
             ]
         }
     }
