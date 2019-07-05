@@ -1,8 +1,8 @@
 <?php
 
-namespace Hoyvoy\CrossDatabase;
+namespace NainLobato\CrossDatabase;
 
-use Hoyvoy\CrossDatabase\Connectors\ConnectionFactory;
+use NainLobato\CrossDatabase\Connectors\ConnectionFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\ServiceProvider;
 

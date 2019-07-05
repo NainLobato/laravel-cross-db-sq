@@ -1,10 +1,10 @@
 <?php
 
-namespace Hoyvoy\CrossDatabase\Connectors;
+namespace NainLobato\CrossDatabase\Connectors;
 
-use Hoyvoy\CrossDatabase\MySqlConnection;
-use Hoyvoy\CrossDatabase\PostgresConnection;
-use Hoyvoy\CrossDatabase\SqlServerConnection;
+use NainLobato\CrossDatabase\MySqlConnection;
+use NainLobato\CrossDatabase\PostgresConnection;
+use NainLobato\CrossDatabase\SqlServerConnection;
 use Illuminate\Database\Connection;
 use Illuminate\Database\Connectors\ConnectionFactory as IlluminateConnectionFactory;
 use PDO;

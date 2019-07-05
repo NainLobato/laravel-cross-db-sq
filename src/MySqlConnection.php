@@ -1,8 +1,8 @@
 <?php
 
-namespace Hoyvoy\CrossDatabase;
+namespace NainLobato\CrossDatabase;
 
-use Hoyvoy\CrossDatabase\Query\Grammars\MySqlGrammar as MySqlQueryGrammar;
+use NainLobato\CrossDatabase\Query\Grammars\MySqlGrammar as MySqlQueryGrammar;
 use Illuminate\Database\MySqlConnection as IlluminateMySqlConnection;
 
 class MySqlConnection extends IlluminateMySqlConnection implements CanCrossDatabaseShazaamInterface

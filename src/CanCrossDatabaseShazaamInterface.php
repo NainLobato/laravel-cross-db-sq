@@ -1,6 +1,6 @@
 <?php
 
-namespace Hoyvoy\CrossDatabase;
+namespace NainLobato\CrossDatabase;
 
 interface CanCrossDatabaseShazaamInterface
 {

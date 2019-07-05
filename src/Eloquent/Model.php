@@ -1,6 +1,6 @@
 <?php
 
-namespace Hoyvoy\CrossDatabase\Eloquent;
+namespace NainLobato\CrossDatabase\Eloquent;
 
 use Illuminate\Database\Eloquent\Model as IlluminateModel;
 
